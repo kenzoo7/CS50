@@ -15,7 +15,7 @@ int main(void)
         printf("height: ");
         h = GetInt();
     }
-    while (h <= 0 || h > 23);
+    while (h < 0 || h > 23);
     
     /*
         Nested loop for print
